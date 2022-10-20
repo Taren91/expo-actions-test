@@ -27,3 +27,6 @@ jobs:
 
       - name: 🚀 Build app
         run: eas build --non-interactive -p android
+
+      - name: 🚀 Publish to store
+        run: eas submit --platform android
